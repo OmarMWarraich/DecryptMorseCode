@@ -18,8 +18,8 @@ end
 def get_words(word)
   @current_word = ''
   word.split.each do |character|
-    get_letters(character) 
-    @current_word += get_letters(character) 
+    get_letters(character)
+    @current_word += get_letters(character)
   end
   @current_word + ' '
 end
