@@ -21,7 +21,7 @@ def get_words(word)
     get_letters(character)
     @current_word += get_letters(character)
   end
-  @current_word + ' '
+  @current_word << ' '
 end
 
 def get_sentences(sentence)
